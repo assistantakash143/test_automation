@@ -18,9 +18,7 @@ public class Testclass extends BaseClass
 		{
 			driver = OpenChromeDriver();
 			driver.manage().window().maximize();
-			driver.navigate().to("https://minimals.cc/.");
-			
-			
+			driver.navigate().to("https://minimals.cc/.");	
 		}
 		
 		@Test
