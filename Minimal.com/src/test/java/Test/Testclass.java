@@ -20,6 +20,7 @@ public class Testclass extends BaseClass
 			driver.manage().window().maximize();
 			driver.navigate().to("https://minimals.cc/.");
 			
+			
 		}
 		
 		@Test
